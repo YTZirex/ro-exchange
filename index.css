@@ -1,0 +1,73 @@
+body {
+  background-color: #13182B;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+header,
+nav,
+ul {
+  /* make a navbar*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(55, 55, 90);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+
+}
+
+header,
+nav,
+li {
+  float: right;
+  right: 50%;
+}
+
+header nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header nav li a:hover:not(.active) {
+  color: #ffffff;
+}
+
+header nav li a:active {
+  background-color: #04aa6d;
+}
+
+body,
+.home,
+.hometitle {
+  /* background-color: rgb(10, 13, 23);*/
+  text-align: center;
+  color: white;
+  height: 350px;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#sellgradient {
+
+  background: -webkit-gradient(linear, left top, right bottom, from(#2336B2), to(#74E5CB));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Roboto', sans-serif;
+}
